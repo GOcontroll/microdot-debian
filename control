@@ -1,0 +1,27 @@
+Source: microdot
+Section: misc
+Priority: optional
+Maintainer: Maud Spierings <maudspierings@gocontroll.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-python3,
+ pybuild-plugin-pyproject,
+ python3-setuptools,
+ python3-all,
+#Testsuite: autopkgtest-pkg-python
+Standards-Version: 4.6.2
+Homepage: https://github.com/miguelgrinberg/microdot
+Vcs-Browser: https://github.com/miguelgrinberg/microdot
+Vcs-Git: https://github.com/miguelgrinberg/microdot.git
+
+Package: python3-microdot
+Architecture: all
+Depends:
+ ${python3:Depends},
+ ${misc:Depends},
+Description: <insert up to 60 chars description> (Python 3)
+ <Insert long description, indented with spaces.>
+ .
+ This package installs the library for Python 3.
+

@@ -1,0 +1,10 @@
+# Example file for upstream/metadata.
+# See https://wiki.debian.org/UpstreamMetadata for more info/fields.
+# Below an example based on a github project.
+
+Bug-Database: https://github.com/miguelgrinberg/microdot/issues
+Bug-Submit: https://github.com/miguelgrinberg/microdot/issues/new
+Changelog: https://github.com/miguelgrinberg/microdot/blob/master/CHANGES.md
+Documentation: https://github.com/miguelgrinberg/microdot/README.md
+Repository-Browse: https://github.com/miguelgrinberg/microdot
+Repository: https://github.com/miguelgrinberg/microdot.git
