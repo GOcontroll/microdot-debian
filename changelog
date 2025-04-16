@@ -1,5 +1,27 @@
-microdot (2.1.0-1) UNRELEASED; urgency=medium
+microdot (2.3.1-1) unstable; urgency=medium
+
+  * Additional support needed when using `orjson`
+  * Support optional authentication methods
+  * Catch SSL exceptions while writing the response
+  * Use `orjson` instead of `json` if available
+  * Addressed typing warnings from pyright
+
+ -- Maud Spierings <maudspierings@gocontroll.com>  Wed, 16 Apr 2025 14:41:08 +0200
+
+microdot (2.2.0-1) bookworm; urgency=medium
+
+  * Support for `multipart/form-data` requests
+  * Support custom path components in URLs
+  * Expose the Jinja environment as `Template.jinja_env`
+  * Simplified urldecode logic
+  * Additional urldecode tests
+  * Documentation improvements 
+  * Update micropython version used in tests to 1.24.1
+
+ -- Maud Spierings <maudspierings@gocontroll.com>  Tue, 25 Mar 2025 09:09:39 +0100
+
+microdot (2.1.0-1) unstable; urgency=medium
 
   * Initial release.
 
- -- Maud Spierings <maudspierings@gocontroll.com>  Tue, 11 Feb 2025 11:18:40 +0100
+ -- Maud Spierings <maudspierings@gocontroll.com>  Wed, 19 Mar 2025 10:33:20 +0100
