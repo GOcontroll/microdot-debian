@@ -1,3 +1,9 @@
+microdot (2.3.2-1) unstable; urgency=medium
+
+  * Use async error handlers in auth module
+
+ -- Maud Spierings <maudspierings@gocontroll.com>  Fri, 09 May 2025 08:49:13 +0200
+
 microdot (2.3.1-1) unstable; urgency=medium
 
   * Additional support needed when using `orjson`

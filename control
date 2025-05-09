@@ -20,8 +20,10 @@ Architecture: all
 Depends:
  ${python3:Depends},
  ${misc:Depends},
-Description: <insert up to 60 chars description> (Python 3)
- <Insert long description, indented with spaces.>
+Description: The impossibly small web framework for Python and MicroPython (Python 3)
+ Microdot is a minimalistic Python web framework inspired by Flask. Given its
+ small size, it can run on systems with limited resources such as
+ microcontrollers. Both standard Python (CPython) and MicroPython are supported.
  .
  This package installs the library for Python 3.
 

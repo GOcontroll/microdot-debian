@@ -12,6 +12,8 @@ export PYBUILD_DISABLE=test
 
 override_dh_auto_clean:
 	rm -rf src/microdot.egg-info
+	rm -rf build/
+	rm -rf .pybuild/
 
 # If you need to rebuild the Sphinx documentation:
 # Add sphinxdoc to the dh --with line.
